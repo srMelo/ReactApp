@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 80px 0 12px;
+}
+
+.container input{
+    margin: 20px 0 10px;
+    height: 3rem;
+    width: 50%;
+    background-color: rgb(194, 194, 194);
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.container button{
+    margin: 12px 0 80px;
+    height: 3rem;
+    width: 50%;
+
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+
+    transition: filter 0.2s;
+
+    background-color: rgb(139, 250, 139);
+    color: #ffff;
+}
+.container button:hover{
+    filter: brightness(0.9);
+}
